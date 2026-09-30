@@ -15,7 +15,7 @@
     "node": ">=22.12"
   },
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
+    "build": "node api.js && npm run build --workspaces --if-present",
     "test": "npm test --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present",
     "test:e2e": "npm run test:e2e --workspaces --if-present"
