@@ -12,7 +12,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node init && tsc -p tsconfig.build.json",
     "test": "jest",
     "lint": "tsc -p tsconfig.json --noEmit",
     "pretest": "npm run build"

@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node init && tsc -p tsconfig.build.json",
     "test": "jest --runInBand",
     "lint": "tsc -p tsconfig.json --noEmit",
     "test:integration": "jest --config jest.integration.json --runInBand"
