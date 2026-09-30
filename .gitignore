@@ -11,8 +11,6 @@ out/
 *.tsbuildinfo
 
 # Environment
-.env
-.env.local
 .env.*.local
 !.env.example
 
@@ -27,7 +25,6 @@ yarn-error.log*
 Thumbs.db
 
 # IDE
-.vscode/*
 !.vscode/extensions.json
 .idea/
 
@@ -43,3 +40,7 @@ Cargo.lock.bak
 *.pem
 .turbo/
 contracts/**/test_snapshots/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
